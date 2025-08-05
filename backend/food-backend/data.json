@@ -1,0 +1,12 @@
+[
+  {
+    "applicant": "Bob's Burgers",
+    "address": "123 SANSOME ST",
+    "status": "APPROVED"
+  },
+  {
+    "applicant": "Taco Queen",
+    "address": "200 MISSION ST",
+    "status": "REQUESTED"
+  }
+]
