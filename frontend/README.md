@@ -50,6 +50,34 @@ GET https://data.sfgov.org/resource/rqzj-sfat.json?applicant=Truly Food & More&s
 GET https://data.sfgov.org/resource/rqzj-sfat.json?$where=address LIKE '%SAN%'
 ```
 
+## How to Run the Project and Tests
+
+### Prerequisites
+
+- Node.js v14+ installed
+
+- npm or yarn package manager
+
+### Setup
+
+# Navigate to frontend folder
+
+Run
+
+- npm install
+- npm run dev
+- Then open: http://localhost:5173
+
+This will bring up a UI from where you can interact to:
+
+- Search by name of applicant. Includes optional filter on "Status" field.
+- Search by street name with partial match. Example: Searching for "SAN" should return food trucks on "SANSOME ST"
+
+Running frontend tests
+
+- Make sure frontend server is running. If not, repeat above step
+- run npx playwright test
+
 ## Critique and Future Improvements
 
 ### What I would do differently with more time
@@ -58,11 +86,7 @@ GET https://data.sfgov.org/resource/rqzj-sfat.json?$where=address LIKE '%SAN%'
 
 - Implement a backend proxy to cache and pre-process data
 
-- Integrate a map view for spatial visualization of food trucks
-
 - Add more detailed search filters (e.g., food items, facility type)
-
-- Improve error handling and retry mechanisms on API failures
 
 ### What I would do differently with more time
 
@@ -75,22 +99,6 @@ GET https://data.sfgov.org/resource/rqzj-sfat.json?$where=address LIKE '%SAN%'
 - Backend API with indexed search (e.g., Elasticsearch) recommended
 
 - Caching, rate limiting, and pagination would improve performance and UX
-
-## How to Run the Project and Tests
-
-### Prerequisites
-
-- Node.js v14+ installed
-
-- npm or yarn package manager
-
-### Setup
-
-- Clone the repo and install dependencies by running `npm install`
-
-### Run dev server
-
-- run `npm start`
 
 ```
 

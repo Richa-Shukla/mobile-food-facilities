@@ -2,6 +2,8 @@
 
 A web application to explore, search, and filter San Francisco’s mobile food facilities. Built using **React** for the frontend and **FastAPI** for the backend. This project uses the official San Francisco dataset to serve live or testable data.
 
+I have built the frontend focused UI part, with added features for backend as well. This README includes instructions to run the frontend and backend service, as well as individual READMEs in the subfolders contain more information regarding technical choices, API and dataset information, and local development.
+
 ---
 
 ## Features
