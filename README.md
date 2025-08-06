@@ -13,7 +13,6 @@ I have built the frontend focused UI part, with added features for backend as we
 - View latitude and longitude for each facility
 - Auto-generated API documentation using FastAPI & Swagger
 - Automated tests for frontend and backend
-- Docker support for containerized backend
 
 ---
 
