@@ -36,7 +36,7 @@ export default function App() {
   } 
 
   return (
-    <div style={{ maxWidth: 800, margin: "40px auto" }}>
+    <div style={{ maxWidth: 1200, margin: "40px auto" }}>
       <Card>
         <Title level={2}>SF Mobile Food Facilities</Title>
 
